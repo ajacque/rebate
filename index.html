@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacques Rebate App</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <div id="container">
+        <h1>Rebate Calculator</h1>
+        <form id="myForm">
+            <input class="calc1" type="number" id="firstNumber" placeholder="Rental charge" />
+            <input class="calc2" type="number" id="secondNumber" placeholder="Days out of service" /><br>
+            <input class='btn' type="button" onClick="multiplyBy()" Value="Calculate" />
+
+        </form>
+
+        <p></br>
+            <span id="result"></span>
+        </p>
+
+
+        <button onClick="window.location.reload();">Refresh</button>
+
+    </div>
+    
+    <div id="footer">
+
+    <h4 id="year"></h4>
+    </div>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

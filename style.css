@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body {
+    justify-content: center;
+    justify-items: center;
+    margin-left: auto;
+    padding: auto;
+    box-sizing: border-box; 
+    background-color: #0483cb;
+    overflow:scroll; 
+    background-image: linear-gradient(rgb(10, 94, 10), black), url('https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80'); 
+    background-blend-mode:exclusion;
+    background-repeat: no-repeat;
+   background-size: cover;
+    backdrop-filter: blur(100px); 
+    position: absolute;
+    
+    
+}
+
+
+
+form {
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: -180px;
+    color: #fff;
+    background-color: #0483cb;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 9px 10px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1::first-letter {
+    color: #ffce30;
+    font-size: larger;
+}
+
+h4 {
+    text-align: center;
+    
+    color: #fff;
+    font-weight: 100;
+    font-size: 0.9em;
+    
+}
+
+p {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    margin-top: 50px;
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: #0483cb;
+    color: #fff;
+    font-weight: 800;
+    box-shadow: 2px 9px 10px rgb(156, 154, 154);
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #F5FFFA;
+    color: #0483cb;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: ease-in-out 0.5s;
+}
+
+.calc1 {
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-right: 4px;
+    background-color: #F5FFFA;
+    border-color: #0483cb;
+}
+
+.calc2 {
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 4px;
+    background-color: #F5FFFA;
+    border-color: #0483cb;
+}
+
+
+#container {
+    
+    background-color: #F8F8FF;
+  display: grid; 
+    place-items: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    border: 5px solid black;
+    margin-left: 500px;
+    margin-right: 400px;
+    margin-top: 100px;
+    border-color: #0483cb;
+    border-radius: 25px;
+    box-shadow: 10px 9px 15px 5px rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+#result{
+    font-size: 1.5em;
+}
+
+span {
+    color: #0483cb;
+
+}
+
+
+
+button {
+    background-color: #ffce30;
+    border-radius: 15px;
+    border: none;
+    margin-top: 60px;
+    color: #fff;
+    width: 120px;
+    height: 30px;
+    font-weight: 800;
+    box-shadow: 2px 9px 10px rgb(156, 154, 154);
+    text-transform: uppercase;
+}
+
+button:hover {
+
+
+    --b: 0.1em;
+    /* the thickness of the line */
+    --c: #1095c1;
+    /* the color */
+    cursor: pointer;
+    color: #0000;
+    padding-block: var(--b);
+    background:
+        linear-gradient(var(--c) 50%, #000 0) 0% calc(100% - var(--_p, 0%))/100% 200%,
+        linear-gradient(var(--c) 0 0) 0% var(--_p, 0%)/var(--_p, 0%) var(--b) no-repeat;
+    -webkit-background-clip: text, padding-box;
+    background-clip: text, padding-box;
+    transition: .5s var(--_s, 0s) linear, background-size .3s calc(.3s - var(--_s, 0s));
+}
+
+.hover:hover {
+    --_p: 100%;
+    --_s: .3s;
+}
+
+#footer {
+    margin-left: 100px;
+    margin-top: auto;
+}
+
+
+@media only screen and (max-width: 980px) {
+  #container {
+    
+    margin-left: 100px;
+    transition: ease-in-out 1s;
+    
+  }
+  #footer {
+    margin-left: -300px;
+  }
+  
+}
+
+
+
